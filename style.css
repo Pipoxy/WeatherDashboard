@@ -1,0 +1,44 @@
+header h1 {
+  margin: 2px;
+  flex: 1 0 0;
+  text-align: center;
+  border: 3px solid gray;
+  padding: 10px;
+  background-color: lightgray;
+}
+
+#today {
+  margin: 10px;
+  border: 2px solid gray;
+  text-align: center;
+  background-color: lightgray;
+}
+
+#input {
+  margin: 10px;
+}
+.days {
+  display: block;
+  width: 100%;
+  margin: 0px auto;
+  text-align: center;
+}
+.day {
+  display: inline-block;
+  width: 15%;
+  height: auto;
+  margin: 10px;
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 2px solid gray;
+  background-color: lightgray;
+}
+
+.newButtons {
+  margin: 5px;
+}
+
+.searchContainer {
+  display: flex;
+}
