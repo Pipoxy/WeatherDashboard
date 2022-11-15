@@ -10,31 +10,37 @@
       integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="assets/style.css" />
     <title>Weather Dashboard</title>
   </head>
   <header>
     <h1>Weather Dashboard</h1>
-    <nav class="navbar navbar-light bg-light">
-      <form class="form-inline">
-        <input
-          class="form-control mr-sm-2"
-          type="search"
-          placeholder="Search Your City"
-          aria-label="Search"
-          id="input"
-        />
-        <button
-          class="btn btn-outline-success my-2 my-sm-0"
-          type="submit"
-          id="searchBtn"
-        >
-          Search
-        </button>
-      </form>
-    </nav>
   </header>
   <body>
-    <script src="./script.js"></script>
+    <div class="searchContainer">
+      <input
+        type="search"
+        placeholder="Search Your City"
+        aria-label="Search"
+        id="input"
+      />
+      <button class="" type="submit" id="searchBtn">Search</button>
+      <div id="btnArea"></div>
+    </div>
+    <div id="today">
+      <h3>Todays Forecast For:<span id="areaName"> _______</span></h3>
+      <div class="todaysForecast">
+        <h4 id="areaDate"></h4>
+        <h4 id="areaWeather"></h4>
+        <h4 id="areaTemp"></h4>
+        <h4 id="areaHumidity"></h4>
+        <h4 id="areaWind"></h4>
+      </div>
+    </div>
+
+    <div class="days" id="days">
+      <!-- days go here -->
+    </div>
+    <script src="assets/script.js"></script>
   </body>
 </html>
